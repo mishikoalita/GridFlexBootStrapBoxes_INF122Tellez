@@ -168,8 +168,9 @@
     color: black;
 }
 .containerbootstrap{
-    background-color: rgb(235, 222, 167);
+    background-color: rgb(189, 209, 240);
     border-color: black;
     border-style: double;
+    color: black;
     margin: 10px;
 }
