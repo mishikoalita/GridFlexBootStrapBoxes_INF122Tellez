@@ -1,0 +1,175 @@
+.maincontainer{
+    background-color: beige;
+    padding: 5px;
+    text-align: center;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.containergrid{
+    background-color: rgb(224, 135, 209);
+    border-color: blueviolet;
+    border-style: double;
+    height: 400px;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin: 10px;
+}
+.box1{
+    background-color: rgb(216, 47, 75);
+    margin: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    grid-column: span 4;
+    grid-row: span 2;
+}
+.box2{
+    background-color: rgb(231, 74, 124);
+    margin: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.box3{
+    background-color: rgb(231, 121, 139);
+    margin: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    grid-row: span 2;
+}
+.box4{
+    background-color: rgb(199, 68, 90);
+    margin: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    grid-row: span 2;
+}
+.box5{
+    background-color: rgb(132, 40, 55);
+    margin: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    grid-row: span 2;
+}
+.box6{
+    background-color: rgb(174, 75, 92);
+    margin: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.box7{
+    background-color: rgb(225, 103, 123);
+    margin: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.box8{
+    background-color: rgb(205, 77, 98);
+    margin: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    grid-column: span 2;
+}
+.box9{
+    background-color: rgb(35, 8, 12);
+    margin: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+    grid-column: span 2;
+}
+.containerflex{
+    background-color: rgb(181, 238, 203);
+    border-color: black;
+    border-style: double;
+    margin: 10px;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex1{
+    background-color: rgb(67, 214, 197);
+    flex-grow: 2;
+    margin: 10px;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    color:black;
+}
+.flex2{
+    flex: 1 0 100px;
+    background-color: rgb(67, 214, 197);
+    flex-grow: 4;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    color:black;
+    align-content: center;
+    justify-content: center;
+}
+.flex2box1{
+    flex: 1 0 200px;
+    margin: 5px;
+    height: 100px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.flex2box1a{
+    flex: 1 0 100px;
+    background-color: rgb(191, 221, 240);
+    border-radius: 20%;
+    text-align: center;
+    margin: 10px;
+}
+.flex2box2{
+    flex: 1 0 200px;
+    margin: 10px;
+    height: 125px;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.flex2box2a{
+    flex: 1 0 50px;
+    background-color: rgb(229, 202, 233);
+    border-radius: 20%;
+    text-align: center;
+    margin: 5px;
+}
+.flex2box2b{
+    flex: 1 0 50px;
+    background-color: rgb(229, 202, 233);
+    border-radius: 20%;
+    text-align: center;
+    margin: 5px;
+}
+.flex3{
+    background-color: rgb(67, 214, 197);
+    flex-grow: 2;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+.containerbootstrap{
+    background-color: rgb(235, 222, 167);
+    border-color: black;
+    border-style: double;
+    margin: 10px;
+}
